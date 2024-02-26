@@ -3,7 +3,7 @@
  
 using namespace std;
  
-// Function to calculate minimum operations for each test case
+
 int min_operations(int n, vector<int>& chips) {
     vector<int> chip_positions;
     for (int i = 0; i < n; ++i) {
@@ -26,16 +26,16 @@ int min_operations(int n, vector<int>& chips) {
     return operations;
 }
  
-// Main function to read input and print output
+
 int main() {
-    int t; // Number of test cases
+    int t;
     cin >> t;
  
     for (int test_case = 0; test_case < t; ++test_case) {
-        int n; // Number of cells
+        int n; 
         cin >> n;
  
-        vector<int> chips(n); // Chip configuration
+        vector<int> chips(n);
         for (int i = 0; i < n; ++i) {
             cin >> chips[i];
         }

@@ -1,2 +1,1 @@
-# Codeforces-Contest
-In this repository I will upload all the codes that I will solve in Codeforces contest
+In this repository, I shall upload all the code that I solve during Codeforces contests.

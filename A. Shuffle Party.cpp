@@ -1,31 +1,25 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-#define ll long long
-#define fs(lcv,hi) for(long long lcv=0;lcv<hi; lcv++)
-#define fb(lcv,hi) for(long long lcv=hi;lcv>=0; lcv--)
-#define co cout <<
-#define ci cin >>
-#define vv vector<long long>
-#define nl <<"\n"
-
-void solve() {
-    ll n;
-    ci n;
-    ll t=log2(n);
-    ll ans=pow(2,t);
-    co ans nl;
-}
-
 int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
+    int t2;
+    cin >> t2;
 
-    ll t;
-    cin >> t;
+    while (t2 > 0) {
+        int n;
+        cin >> n;
+        int ans = 1;
 
-    while (t--) {
-        solve();
+        while (ans < n) {
+            ans *= 2;
+            if (ans > n) {
+                ans /= 2;
+                break;
+            }
+        }
+
+        cout << ans << "\n";
+        t2--;
     }
 
     return 0;

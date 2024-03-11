@@ -9,6 +9,8 @@ using namespace std;
 #define vv vector<long long>
 #define nl <<"\n"
 
+vector<vector<int>> TLE(40000, vector<int>(7));
+
 void solve() {
     
 }

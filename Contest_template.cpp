@@ -2,12 +2,17 @@
 using namespace std;
 
 #define ll long long
-#define fs(lcv,hi) for(long long lcv=0;lcv<hi; lcv++)
-#define fb(lcv,hi) for(long long lcv=hi;lcv>=0; lcv--)
-#define co cout <<
-#define ci cin >>
-#define vv vector<long long>
-#define nl <<"\n"
+#define pb emplace_back
+#define fs(i,x,y) for(int i=x;i<y;i++)
+#define all(x) (x).begin(),(x).end()
+#define rall(x) (x).rbegin(),(x).rend()
+#define mii map<int,int>
+#define pii pair<int,int>
+#define vvi vector<vector<int>>
+#define vi vector<int>
+#define vpi vector<pair<int,int>>
+#define nl "\n"
+
 
 vector<vector<int>> TLE(40000, vector<int>(7));
 
